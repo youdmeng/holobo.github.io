@@ -1,0 +1,279 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>WaterMin</title><meta name="author" content="WaterMin"><meta name="copyright" content="WaterMin"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><meta name="description" content="只会抄袭的码农">
+<meta property="og:type" content="website">
+<meta property="og:title" content="WaterMin">
+<meta property="og:url" content="https://www.ytooo.top/page/2/index.html">
+<meta property="og:site_name" content="WaterMin">
+<meta property="og:description" content="只会抄袭的码农">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://www.ytooo.top/images/12a2607b92a74ec3989e80ec3df2eed0.jpg">
+<meta property="article:author" content="WaterMin">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://www.ytooo.top/images/12a2607b92a74ec3989e80ec3df2eed0.jpg"><link rel="shortcut icon" href="/img/min_favicon32.ico"><link rel="canonical" href="https://www.ytooo.top/page/2/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//fonts.googleapis.com" crossorigin="crossorigin"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="preconnect" href="//zz.bdstatic.com"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web&amp;display=swap"><script>var GLOBAL_CONFIG = { 
+  root: '/',
+  hexoversion: '4.2.1',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  ClickShowText: undefined,
+  lightbox: 'mediumZoom',
+  Snackbar: undefined,
+  justifiedGallery: {
+    js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+    css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+  },
+  isPhotoFigcaption: false,
+  islazyload: true,
+  isanchor: false
+};
+
+var saveToLocal = {
+  set: function setWithExpiry(key, value, ttl) {
+    const now = new Date()
+    const expiryDay = ttl * 86400000
+    const item = {
+      value: value,
+      expiry: now.getTime() + expiryDay,
+    }
+    localStorage.setItem(key, JSON.stringify(item))
+  },
+
+  get: function getWithExpiry(key) {
+    const itemStr = localStorage.getItem(key)
+
+    if (!itemStr) {
+      return undefined
+    }
+    const item = JSON.parse(itemStr)
+    const now = new Date()
+
+    if (now.getTime() > item.expiry) {
+      localStorage.removeItem(key)
+      return undefined
+    }
+    return item.value
+  }
+}</script><script id="config_change">var GLOBAL_CONFIG_SITE = { 
+  isPost: false,
+  isHome: true,
+  isHighlightShrink: undefined,
+  isSidebar: false,
+  postUpdate: '2020-10-20 12:54:28'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(function () {
+  window.activateDarkMode = function () {
+    document.documentElement.setAttribute('data-theme', 'dark')
+    if (document.querySelector('meta[name="theme-color"]') !== null) {
+      document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+    }
+  }
+  window.activateLightMode = function () {
+    document.documentElement.setAttribute('data-theme', 'light')
+    if (document.querySelector('meta[name="theme-color"]') !== null) {
+      document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+    }
+  }
+
+  const autoChangeMode = '1'
+  const t = saveToLocal.get('theme')
+  if (autoChangeMode === '1') {
+    const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+    const isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+    const isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+    const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+    if (t === undefined) {
+      if (isLightMode) activateLightMode()
+      else if (isDarkMode) activateDarkMode()
+      else if (isNotSpecified || hasNoSupport) {
+        const now = new Date()
+        const hour = now.getHours()
+        const isNight = hour <= 6 || hour >= 18
+        isNight ? activateDarkMode() : activateLightMode()
+      }
+      window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
+        if (saveToLocal.get('theme') === undefined) {
+          e.matches ? activateDarkMode() : activateLightMode()
+        }
+      })
+    } else if (t === 'light') activateLightMode()
+    else activateDarkMode()
+  } else if (autoChangeMode === '2') {
+    const now = new Date()
+    const hour = now.getHours()
+    const isNight = hour <= 6 || hour >= 18
+    if (t === undefined) isNight ? activateDarkMode() : activateLightMode()
+    else if (t === 'light') activateLightMode()
+    else activateDarkMode()
+  } else {
+    if (t === 'dark') activateDarkMode()
+    else if (t === 'light') activateLightMode()
+  }
+})()</script><meta name="generator" content="Hexo 4.2.1"></head><body><div id="mobile-sidebar"><div id="menu_mask"></div><div id="mobile-sidebar-menus"><div class="mobile_author_icon"><img class="avatar-img" data-lazy-src="/images/12a2607b92a74ec3989e80ec3df2eed0.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="mobile_post_data"><div class="mobile_data_item is-center"><div class="mobile_data_link"><a href="/archives/"><div class="headline">文章</div><div class="length_num">23</div></a></div></div><div class="mobile_data_item is-center">      <div class="mobile_data_link"><a href="/tags/"><div class="headline">标签</div><div class="length_num">29</div></a></div></div><div class="mobile_data_item is-center">     <div class="mobile_data_link"><a href="/categories/"><div class="headline">分类</div><div class="length_num">12</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> 分类</span></a></div></div></div></div><div id="body-wrap"><header class="full_page" id="page-header" style="background-image: url(/images/default_top_img.jpg)"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">WaterMin</a></span><span id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> 分类</span></a></div></div><span class="close" id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></span></span></nav><div id="site-info"><h1 id="site-title">WaterMin</h1><div id="site-subtitle"><span id="subtitle"></span></div><div id="site_social_icons"><a class="social-icon" href="https://github.com/youdmeng" target="_blank" title="Github"><i class="fab fa-github-alt"></i></a><a class="social-icon" href="mailto:youdmeng@hotmail.com" target="_blank" title="Email"><i class="fa fa-envelope"></i></a><a class="social-icon" href="https://juejin.im/user/5dfdca7bf265da33e57acdaf/posts" target="_blank" title="掘金"><i class="fas fa-magnet"></i></a><a class="social-icon" href="https://www.jianshu.com/u/2d97cfc907c4" target="_blank" title="简书"><i class="fas fa-book"></i></a><a class="social-icon" href="https://weibo.com/u/3298874031" target="_blank" title="微博"><i class="fab fa-weibo"></i></a></div></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout_page" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="post_cover left_radius"><a href="/e8a89aa3.html" title="Java使用Selenium实现自动化测试以及全功能爬虫">     <img class="post_bg" data-lazy-src="/images/santi.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Java使用Selenium实现自动化测试以及全功能爬虫"></a></div><div class="recent-post-info"><a class="article-title" href="/e8a89aa3.html" title="Java使用Selenium实现自动化测试以及全功能爬虫">Java使用Selenium实现自动化测试以及全功能爬虫</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2020-04-26T06:07:21.000Z" title="发表于 2020-04-26 14:07:21">2020-04-26</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox article-meta__icon"></i><a class="article-meta__categories" href="/categories/%E7%88%AC%E8%99%AB/">爬虫</a></span></div><div class="content">Java使用Selenium实现自动化测试以及全功能爬虫1 你听没听说过Selenium？1.1 自动化测试提到Selenium，便离不开自动化测试。
+自动化测试，就是把手工进行的测试过程，转变成机器自动执行的测试过程。
+自动化测试有如下优点
+
+对程序的回归测试更方便。 这可能是自动化测试最主要的任务，特别是在程序修改比较频繁时，效果是非常明显的。 …
+可以运行更多更繁琐的测试。 …
+可以执行一些手工测试困难或不可能进行的测试。 …
+更好地利用资源。 …
+测试具有一致性和可重复性。 …
+测试的复用性。 …
+增加软件信任度。
+
+1.2 Selenium因为对自动化测试卓越体验的追求，众多自动化测试工具应运而生，Selenium就是其中最出色的一款。
+Selenium 是一个用于Web应用程序测试的工具。他是一款浏览器仿真程序 可以像真正的用户在操作一样操作浏览器。
+Selenium支持全部主流的浏览器，支持主流的编程语言，包括：Java、Python、C#、PHP、Ruby、JavaScript等，基于标准的 WebDriver 语法规范，同时支持所有基于web 的管理任务自动化。
+Se ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/4b511f3e.html" title="logback-spring配置文件备份">     <img class="post_bg" data-lazy-src="/images/logfile.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="logback-spring配置文件备份"></a></div><div class="recent-post-info"><a class="article-title" href="/4b511f3e.html" title="logback-spring配置文件备份">logback-spring配置文件备份</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2020-03-16T01:08:26.000Z" title="发表于 2020-03-16 09:08:26">2020-03-16</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox article-meta__icon"></i><a class="article-meta__categories" href="/categories/Spring-boot/">Spring boot</a></span></div><div class="content">logback-spring配置文件备份springboot开发中经常用到日志记录，特备份日志记录框架logback的配置文件，以便日后使用
+1234567891011121314151617181920212223&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;configuration&gt;    &lt;include resource="org/springframework/boot/logging/logback/defaults.xml"/&gt;    &lt;property name="LOG_FILE" value="${LOG_FILE:-${LOG_PATH:-${LOG_TEMP:-${java.io.tmpdir:-/tmp}}}/spring.log}"/&gt;    &lt;include resource="org/springframework/boot/logging/logback/console-appender.xml"/&gt;    &lt;appender name="TIME_FI ...</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/6959136d.html" title="Java开发中Maven使用的总结">     <img class="post_bg" data-lazy-src="/images/Islamic.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Java开发中Maven使用的总结"></a></div><div class="recent-post-info"><a class="article-title" href="/6959136d.html" title="Java开发中Maven使用的总结">Java开发中Maven使用的总结</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2020-01-15T23:12:21.000Z" title="发表于 2020-01-16 07:12:21">2020-01-16</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox article-meta__icon"></i><a class="article-meta__categories" href="/categories/%E5%BC%80%E5%8F%91%E7%94%9F%E6%B4%BB/">开发生活</a></span></div><div class="content">Java开发中Maven使用的总结1. 初衷  相信每个java开发人员对maven都不陌生，它和git，svn，idea一样，伴随着我们开发的每一分钟。但你在大多数时候，只是在使用它，你真的认识它，了解它，熟悉它吗？今天我来分享一点，我在项目中使用maven总结出的东西
+2. 仓库  仓库，是用来存放东西的地方，maven仓库也是一样，用来存放我们会用到的一些构件  Maven 仓库能帮助我们管理构件（主要是JAR），它就是放置所有JAR文件（WAR，ZIP，POM等等）的地方。Maven 仓库有两种类型：
+
+本地（local）
+远程（remote）（中央（central）也算一种远程仓库）
+
+2.1 本地仓库   运行 Maven 的时候，Maven 所需要的任何构件都是直接从本地仓库获取的。如果本地仓库没有，它会首先尝试从远程仓库下载构件至本地仓库，然后再使用本地仓库的构件。
+   在本地仓库中已存在的构件，包括从远程仓库获取的以及本地项目install进去的项目，都是最先优先级被被项目使用的
+   本地仓库默认路径为 本机用户下:  .m2/respository/ 文件夹，也 ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/8ba7f021.html" title="Drools规则引擎 系列教程（四）Drools 主要API &amp; 决策表">     <img class="post_bg" data-lazy-src="/images/dog.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Drools规则引擎 系列教程（四）Drools 主要API &amp; 决策表"></a></div><div class="recent-post-info"><a class="article-title" href="/8ba7f021.html" title="Drools规则引擎 系列教程（四）Drools 主要API &amp; 决策表">Drools规则引擎 系列教程（四）Drools 主要API &amp; 决策表</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2020-01-14T14:12:40.000Z" title="发表于 2020-01-14 22:12:40">2020-01-14</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox article-meta__icon"></i><a class="article-meta__categories" href="/categories/java%E5%90%8E%E7%AB%AF/">java后端</a></span></div><div class="content">Drools规则引擎 系列教程（四）Drools 主要API &amp; 决策表Drools规则引擎 系列教程（一）SpringBoot整合 &amp; 快速集成上手
+Drools规则引擎 系列教程（二）Drools规则语法 &amp; LHS 条件
+Drools规则引擎 系列教程（三）Drools规则语法 &amp; RHS动作 &amp; header详解
+教程代码已提交到ytooo-drools，欢迎star
+drools 规则引擎配置文件解析
+
+
+
+
+
+教程代码已提交到ytooo-drools，欢迎starDrools规则引擎 系列教程（三）Drools规则语法 &amp; RHS动作 &amp; header详解
+更多好玩好看的内容，欢迎到我的博客交流，共同进步        WaterMin
+
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const i ...</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/d39d880f.html" title="Drools规则引擎 系列教程（三）Drools规则语法 &amp; RHS动作 &amp; header详解">     <img class="post_bg" data-lazy-src="/images/temple.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Drools规则引擎 系列教程（三）Drools规则语法 &amp; RHS动作 &amp; header详解"></a></div><div class="recent-post-info"><a class="article-title" href="/d39d880f.html" title="Drools规则引擎 系列教程（三）Drools规则语法 &amp; RHS动作 &amp; header详解">Drools规则引擎 系列教程（三）Drools规则语法 &amp; RHS动作 &amp; header详解</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2020-01-13T23:12:40.000Z" title="发表于 2020-01-14 07:12:40">2020-01-14</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox article-meta__icon"></i><a class="article-meta__categories" href="/categories/java%E5%90%8E%E7%AB%AF/">java后端</a></span></div><div class="content">Drools规则引擎 系列教程（三）Drools规则语法 &amp; RHS动作 &amp; header详解Drools规则引擎 系列教程（一）SpringBoot整合 &amp; 快速集成上手
+Drools规则引擎 系列教程（二）Drools规则语法 &amp; LHS 条件
+Drools规则引擎 系列教程（四）Drools 主要API &amp; 决策表
+教程代码已提交到ytooo-drools，欢迎star
+1. RHS动作  RHS 部分定义了当LHS满足是要进行的操作,规则操作的主要目的是在Drools引擎的工作内存中插入，删除或修改数据。RHS中可以编写代码，可以使用LHS 部分当中定义的绑定变量名以及drl头部定义的全局变量。在RHS当中如果需要条件判断,那么请重新考虑将其放在 LHS 当中,否则就违背了使用规则的初衷。
+1.2. 主要操作
+
+
+动作
+描述
+
+
+
+set
+给属性赋值
+
+
+modify
+将改变通知drolls引擎
+
+
+update
+将改变通知drolls引擎
+
+
+insert
+将新实事插入到drools引擎的工作
+
+
+insertLogical
+inser ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/12221.html" title="Flag">     <img class="post_bg" data-lazy-src="/images/wall.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Flag"></a></div><div class="recent-post-info"><a class="article-title" href="/12221.html" title="Flag">Flag</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2020-01-09T23:12:21.000Z" title="发表于 2020-01-10 07:12:21">2020-01-10</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox article-meta__icon"></i><a class="article-meta__categories" href="/categories/%E6%97%A5%E5%B8%B8/">日常</a></span></div><div class="content">大家好，我是Flag。我老大往我身上刻字，╥﹏╥我老大说：最近养成了两个好习惯：记账 &amp; 写笔记  记账目前还没看到明显效果，但我知道坚持下去对于了解自己，规划未来，会有很大帮助，也是一件提升幸福感的事情。这是我一定要坚持下去的事。  还有就是写小笔记，之前一直想写一些东西把平时遇到的积累起来，但没养成好习惯，胡乱丢进记事本，再后来，就慢慢遗忘找不到了。虽然都不是什么大智慧，不像大佬们能刨根问底，拓展创新。但也不乏踩过的坑，新走的路  用hexo搭了个博客后，写东西的热情来了，给了小笔记们一个温暖的家。同样也可以提升幸福感，快乐的同时，武装自己。  希望能坚持下去，写完Drools后，准备写写Quartz，容器Tomcat、Jetty、Weblogic。再忙每周也要至少产出一片笔记，Gogogo 最后推荐一个记账App:  鲨鱼记账 更多好玩好看的内容，欢迎到我的博客交流，共同进步        WaterMin
+
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+     ...</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/38470.html" title="Drools规则引擎 系列教程（二）Drools规则语法 &amp; LHS 条件">     <img class="post_bg" data-lazy-src="/images/ship.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Drools规则引擎 系列教程（二）Drools规则语法 &amp; LHS 条件"></a></div><div class="recent-post-info"><a class="article-title" href="/38470.html" title="Drools规则引擎 系列教程（二）Drools规则语法 &amp; LHS 条件">Drools规则引擎 系列教程（二）Drools规则语法 &amp; LHS 条件</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2020-01-07T23:12:40.000Z" title="发表于 2020-01-08 07:12:40">2020-01-08</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox article-meta__icon"></i><a class="article-meta__categories" href="/categories/java%E5%90%8E%E7%AB%AF/">java后端</a></span></div><div class="content">Drools规则引擎 系列教程（一）SpringBoot整合 &amp; 快速集成上手Drools规则引擎 系列教程（一）SpringBoot整合 &amp; 快速集成上手
+Drools规则引擎 系列教程（三）Drools规则语法 &amp; RHS动作 &amp; header详解
+Drools规则引擎 系列教程（四）Drools 主要API &amp; 决策表
+教程代码已提交到ytooo-drools，欢迎star
+文中代码方法均基于上一篇教程
+1. .drl文件结构
+package 包充当每组规则的唯一名称空间。一个规则库可以包含多个程序包。通常，将包的所有规则与包声明存储在同一文件中，以便包是独立的。但是，也可以在规则中使用从其他的包中导入的对象
+imports 与Java中的import语句类似，用来标识在规则中使用的任何对象的标准路径和类型名称
+factions 函数代码块如：123function String hello(String applicantName) {    return "Hello " + applicantName + "!";}
+queries  ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/34871.html" title="Drools规则引擎 系列教程（一）SpringBoot整合 &amp; 快速集成上手">     <img class="post_bg" data-lazy-src="/images/bridge.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Drools规则引擎 系列教程（一）SpringBoot整合 &amp; 快速集成上手"></a></div><div class="recent-post-info"><a class="article-title" href="/34871.html" title="Drools规则引擎 系列教程（一）SpringBoot整合 &amp; 快速集成上手">Drools规则引擎 系列教程（一）SpringBoot整合 &amp; 快速集成上手</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2020-01-07T10:37:40.000Z" title="发表于 2020-01-07 18:37:40">2020-01-07</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox article-meta__icon"></i><a class="article-meta__categories" href="/categories/java%E5%90%8E%E7%AB%AF/">java后端</a></span></div><div class="content">Drools规则引擎 系列教程（一）SpringBoot整合 &amp; 快速集成上手Drools规则引擎 系列教程（二）Drools规则语法 &amp; LHS 条件
+Drools规则引擎 系列教程（三）Drools规则语法 &amp; RHS动作 &amp; header详解
+Drools规则引擎 系列教程（四）Drools 主要API &amp; 决策表
+教程代码已提交到ytooo-drools，欢迎star
+1. Drools简介什么是规则引擎  规则引擎由推理引擎发展而来，是一种嵌入在应用程序中的组件，实现了将业务决策从应用程序代码中分离出来，并使用预定义的语义模块编写业务决策。接受数据输入，解释业务规则，并根据业务规则做出业务决策。
+  简单来说包括像表单验证和动态表达式引擎这样的简单系统都可以称之为规则引擎。
+为什么使用规则引擎？  复杂企业级项目的开发以及其中随外部条件不断变化的业务规则（business logic），迫切需要分离商业决策者的商业决策逻辑和应用开发者的技术决策，并把这些商业决策放在中心数据库或其他统一的地方，让它们能在运行时（即商务时间）可以动态地管理 ...</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/54315.html" title="weblogic下包冲突 导致@Valid失效 不能正确校验表单 分析与解决">     <img class="post_bg" data-lazy-src="/images/fox.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="weblogic下包冲突 导致@Valid失效 不能正确校验表单 分析与解决"></a></div><div class="recent-post-info"><a class="article-title" href="/54315.html" title="weblogic下包冲突 导致@Valid失效 不能正确校验表单 分析与解决">weblogic下包冲突 导致@Valid失效 不能正确校验表单 分析与解决</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2019-12-30T09:12:40.000Z" title="发表于 2019-12-30 17:12:40">2019-12-30</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox article-meta__icon"></i><a class="article-meta__categories" href="/categories/%E5%AE%B9%E5%99%A8/">容器</a></span></div><div class="content">weblogic下包冲突 导致@Valid失效 不能正确校验表单 分析与解决问题描述：
+项目本地开发下使用 tomcat || jetty 启动，使用 validation-api + hibernate-validator在对入参进行注解方式校验时,全部注解可以准确拦截异常参数
+在 weblogic 12c下 相同项目  @Notblank注解  失效，不能正确拦截空串入参
+
+
+
+解决过程：
+更新 最新版本  validation-api + hibernate-validator &nbsp;&nbsp;&nbsp;&nbsp;                        无效果
+更换启动类注解  @valid       无效果
+配置项目 weblogic配置文件                 weblogic.xml12345&lt;prefer-application-packages&gt;    ....................    &lt;package-name&gt;org.hibernate.*&lt;/package-name&gt;    &lt ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/13828.html" title="SpringBoot中使用@Valid 做入参表单校验 以及常见校验规则">     <img class="post_bg" data-lazy-src="/images/stone.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="SpringBoot中使用@Valid 做入参表单校验 以及常见校验规则"></a></div><div class="recent-post-info"><a class="article-title" href="/13828.html" title="SpringBoot中使用@Valid 做入参表单校验 以及常见校验规则">SpringBoot中使用@Valid 做入参表单校验 以及常见校验规则</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2019-12-29T07:12:40.000Z" title="发表于 2019-12-29 15:12:40">2019-12-29</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox article-meta__icon"></i><a class="article-meta__categories" href="/categories/java%E5%90%8E%E7%AB%AF/">java后端</a></span></div><div class="content">SpringBoot中使用@Valid 做入参表单校验 以及常见校验规则在日常接口开发中，常常遇到对入参表单进行校验的情况，@Valid注解可以使用注解的方式，结合多种规则以及自定义正则，从而实现表单数据的验证，极大的简化了后端程序的代码量以及复杂度，给开发人员带来极大的方便
+
+
+1.在pom.xml中引入 hibernate-validator12345678910&lt;dependency&gt;    &lt;groupId&gt;org.hibernate&lt;/groupId&gt;    &lt;artifactId&gt;hibernate-validator&lt;/artifactId&gt;    &lt;version&gt;6.0.13.Final&lt;/version&gt;&lt;/dependency&gt;&lt;dependency&gt;    &lt;groupId&gt;javax.validation&lt;/groupId&gt;    &lt;artifactId&gt;validation-api&lt;/artifactId&gt ...</div></div></div><nav id="pagination"><div class="pagination"><a class="extend prev" rel="prev" href="/"><i class="fas fa-chevron-left fa-fw"></i></a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a class="page-number" href="/page/3/">3</a><a class="extend next" rel="next" href="/page/3/"><i class="fas fa-chevron-right fa-fw"></i></a></div></nav></div><div class="aside_content" id="aside_content"><div class="card-widget card-info"><div class="card-content"><div class="card-info-avatar is-center"><img class="avatar-img" data-lazy-src="/images/12a2607b92a74ec3989e80ec3df2eed0.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/><div class="author-info__name">WaterMin</div><div class="author-info__description">只会抄袭的码农</div></div><div class="card-info-data"><div class="card-info-data-item is-center"><a href="/archives/"><div class="headline">文章</div><div class="length_num">23</div></a></div><div class="card-info-data-item is-center"><a href="/tags/"><div class="headline">标签</div><div class="length_num">29</div></a></div><div class="card-info-data-item is-center"><a href="/categories/"><div class="headline">分类</div><div class="length_num">12</div></a></div></div><a class="button--animated" id="card-info-btn" href="https://github.com/youdmeng" target="_blank" rel="noopener"><i class="fab fa-github"></i><span>来 XXhub 找我</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/youdmeng" target="_blank" title="Github"><i class="fab fa-github-alt"></i></a><a class="social-icon" href="mailto:youdmeng@hotmail.com" target="_blank" title="Email"><i class="fa fa-envelope"></i></a><a class="social-icon" href="https://juejin.im/user/5dfdca7bf265da33e57acdaf/posts" target="_blank" title="掘金"><i class="fas fa-magnet"></i></a><a class="social-icon" href="https://www.jianshu.com/u/2d97cfc907c4" target="_blank" title="简书"><i class="fas fa-book"></i></a><a class="social-icon" href="https://weibo.com/u/3298874031" target="_blank" title="微博"><i class="fab fa-weibo"></i></a></div></div></div><div class="sticky_layout"><div class="card-widget card-announcement"><div class="card-content"><div class="item-headline"><i class="fas fa-bullhorn card-announcement-animation"></i><span>公告</span></div><div class="announcement_content">客官楼上请，喜欢的话，请收藏^-^</div></div></div><div class="card-widget card-recent-post"><div class="card-content"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/20238698.html" title="SpringCloud+SpringCloudAlibaba学习笔记"><img data-lazy-src="/images/springcloud.svg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="SpringCloud+SpringCloudAlibaba学习笔记"/></a><div class="content"><a class="title" href="/20238698.html" title="SpringCloud+SpringCloudAlibaba学习笔记">SpringCloud+SpringCloudAlibaba学习笔记</a><time datetime="2020-08-31T05:40:00.000Z" title="发表于 2020-08-31 13:40:00">2020-08-31</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/235d9256.html" title="Springboot下Shiro+Token使用redis做安全认证方案"><img data-lazy-src="/images/shiro.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Springboot下Shiro+Token使用redis做安全认证方案"/></a><div class="content"><a class="title" href="/235d9256.html" title="Springboot下Shiro+Token使用redis做安全认证方案">Springboot下Shiro+Token使用redis做安全认证方案</a><time datetime="2020-07-07T02:31:00.000Z" title="发表于 2020-07-07 10:31:00">2020-07-07</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/9c6616d7.html" title="Springboot整合Swing制作简单GUI客户端项目记录"><img data-lazy-src="/images/swing/cover.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Springboot整合Swing制作简单GUI客户端项目记录"/></a><div class="content"><a class="title" href="/9c6616d7.html" title="Springboot整合Swing制作简单GUI客户端项目记录">Springboot整合Swing制作简单GUI客户端项目记录</a><time datetime="2020-06-04T07:09:00.000Z" title="发表于 2020-06-04 15:09:00">2020-06-04</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/fce2f63.html" title="JAVA设计模式理解与总结（下）代理模式&amp;适配器模式&amp;观察者模式"><img data-lazy-src="/images/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="JAVA设计模式理解与总结（下）代理模式&amp;适配器模式&amp;观察者模式"/></a><div class="content"><a class="title" href="/fce2f63.html" title="JAVA设计模式理解与总结（下）代理模式&amp;适配器模式&amp;观察者模式">JAVA设计模式理解与总结（下）代理模式&amp;适配器模式&amp;观察者模式</a><time datetime="2020-06-01T02:47:00.000Z" title="发表于 2020-06-01 10:47:00">2020-06-01</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/8d37bde7.html" title="JAVA设计模式理解与总结（上）单例模式&amp;工厂模式&amp;建造者模式"><img data-lazy-src="/images/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="JAVA设计模式理解与总结（上）单例模式&amp;工厂模式&amp;建造者模式"/></a><div class="content"><a class="title" href="/8d37bde7.html" title="JAVA设计模式理解与总结（上）单例模式&amp;工厂模式&amp;建造者模式">JAVA设计模式理解与总结（上）单例模式&amp;工厂模式&amp;建造者模式</a><time datetime="2020-05-29T00:47:00.000Z" title="发表于 2020-05-29 08:47:00">2020-05-29</time></div></div></div></div></div><div class="card-widget card-categories"><div class="card-content"><div class="item-headline"><i class="fas fa-folder-open"></i><span>分类</span></div><ul class="card-category-list" id="aside-cat-list">
+            <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Spring-boot/"><span class="card-category-list-name">Spring boot</span><span class="card-category-list-count">5</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/java%E5%90%8E%E7%AB%AF/"><span class="card-category-list-name">java后端</span><span class="card-category-list-count">6</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/swing/"><span class="card-category-list-name">swing</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E5%AE%89%E5%85%A8%E8%AE%A4%E8%AF%81/"><span class="card-category-list-name">安全认证</span><span class="card-category-list-count">2</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E5%AE%89%E5%8D%93/"><span class="card-category-list-name">安卓</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E5%AE%B9%E5%99%A8/"><span class="card-category-list-name">容器</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E5%BC%80%E5%8F%91%E7%94%9F%E6%B4%BB/"><span class="card-category-list-name">开发生活</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E5%BE%AE%E6%9C%8D%E5%8A%A1/"><span class="card-category-list-name">微服务</span><span class="card-category-list-count">1</span></a></li>
+            <li class="card-category-list-item more is-center"><a class="card-category-list-link-more" href="/categories/">
+                <span>查看更多</span><i class="fas fa-angle-right"></i></a></li>
+            </ul></div></div><div class="card-widget card-tags"><div class="card-content"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/Spring-boot/" style="font-size: 1.5em; color: rgb(196, 102, 172)">Spring boot</a><a href="/tags/%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/" style="font-size: 1.23em; color: rgb(76, 103, 126)">配置文件</a><a href="/tags/java/" style="font-size: 1.5em; color: rgb(176, 19, 132)">java</a><a href="/tags/%E8%BF%9E%E6%8E%A5%E6%B1%A0/" style="font-size: 1.1em; color: rgb(151, 15, 97)">连接池</a><a href="/tags/druid/" style="font-size: 1.1em; color: rgb(130, 20, 53)">druid</a><a href="/tags/%E8%A1%A8%E5%8D%95%E9%AA%8C%E8%AF%81/" style="font-size: 1.23em; color: rgb(17, 45, 55)">表单验证</a><a href="/tags/weblogic/" style="font-size: 1.1em; color: rgb(80, 174, 47)">weblogic</a><a href="/tags/flag/" style="font-size: 1.1em; color: rgb(170, 6, 99)">flag</a><a href="/tags/drools/" style="font-size: 1.37em; color: rgb(176, 83, 93)">drools</a><a href="/tags/%E8%A7%84%E5%88%99%E5%BC%95%E6%93%8E/" style="font-size: 1.37em; color: rgb(3, 129, 112)">规则引擎</a><a href="/tags/plsql/" style="font-size: 1.1em; color: rgb(159, 41, 78)">plsql</a><a href="/tags/%E4%BA%8B%E5%8A%A1/" style="font-size: 1.1em; color: rgb(169, 50, 107)">事务</a><a href="/tags/Spring-Boot/" style="font-size: 1.1em; color: rgb(32, 37, 133)">Spring Boot</a><a href="/tags/maven/" style="font-size: 1.1em; color: rgb(3, 21, 148)">maven</a><a href="/tags/%E7%88%AC%E8%99%AB/" style="font-size: 1.1em; color: rgb(69, 128, 69)">爬虫</a><a href="/tags/Selenium/" style="font-size: 1.1em; color: rgb(158, 19, 97)">Selenium</a><a href="/tags/token/" style="font-size: 1.1em; color: rgb(161, 161, 13)">token</a><a href="/tags/JWT/" style="font-size: 1.1em; color: rgb(188, 132, 35)">JWT</a><a href="/tags/%E8%AE%A4%E8%AF%81/" style="font-size: 1.1em; color: rgb(185, 78, 18)">认证</a><a href="/tags/%E6%95%B0%E6%8D%AE%E5%90%8C%E6%AD%A5/" style="font-size: 1.1em; color: rgb(143, 147, 77)">数据同步</a><a href="/tags/%E6%B3%9B%E5%9E%8B/" style="font-size: 1.1em; color: rgb(104, 115, 192)">泛型</a><a href="/tags/%E5%8F%8D%E5%B0%84/" style="font-size: 1.1em; color: rgb(146, 3, 200)">反射</a><a href="/tags/dao/" style="font-size: 1.1em; color: rgb(197, 121, 21)">dao</a><a href="/tags/%E5%AE%89%E5%8D%93/" style="font-size: 1.1em; color: rgb(113, 83, 158)">安卓</a><a href="/tags/%E5%AE%89%E5%8D%93%E6%9B%B4%E6%96%B0/" style="font-size: 1.1em; color: rgb(30, 109, 164)">安卓更新</a><a href="/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/" style="font-size: 1.23em; color: rgb(130, 103, 40)">设计模式</a><a href="/tags/swing/" style="font-size: 1.1em; color: rgb(79, 175, 57)">swing</a><a href="/tags/%E5%BE%AE%E6%9C%8D%E5%8A%A1/" style="font-size: 1.1em; color: rgb(171, 144, 47)">微服务</a><a href="/tags/Shiro/" style="font-size: 1.1em; color: rgb(195, 160, 55)">Shiro</a></div></div></div><div class="card-widget card-archives"><div class="card-content"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2020/08/"><span class="card-archive-list-date">八月 2020</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2020/07/"><span class="card-archive-list-date">七月 2020</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2020/06/"><span class="card-archive-list-date">六月 2020</span><span class="card-archive-list-count">2</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2020/05/"><span class="card-archive-list-date">五月 2020</span><span class="card-archive-list-count">6</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2020/04/"><span class="card-archive-list-date">四月 2020</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2020/03/"><span class="card-archive-list-date">三月 2020</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2020/01/"><span class="card-archive-list-date">一月 2020</span><span class="card-archive-list-count">6</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2019/12/"><span class="card-archive-list-date">十二月 2019</span><span class="card-archive-list-count">2</span></a></li><li class="card-archive-list-item more is-center"><a class="card-archive-list-link-more" href="/archives/">
+              <span>查看更多</span><i class="fas fa-angle-right"  ></i></a></li></ul></div></div><div class="card-widget card-webinfo"><div class="card-content"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">23</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2020-10-20T04:54:28.244Z"></div></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 By WaterMin</div><div class="framework-info"><span>框架 </span><a href="https://hexo.io" target="_blank" rel="noopener">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a href="https://github.com/jerryc127/hexo-theme-butterfly" target="_blank" rel="noopener">Butterfly</a></div><div class="footer_custom_text">码农 | 想象力有限责任公司</div></div></footer></div><section id="rightside"><div id="rightside-config-hide"><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></section><div><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/medium-zoom/dist/medium-zoom.min.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module" defer></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js"></script><div class="js-pjax"><script>function subtitleType () {
+  if (true) { 
+    var typed = new Typed("#subtitle", {
+      strings: "苍白的月光下，我和影子述说寂寞。,Pale moonlight, I declare lonely and shadow".split(","),
+      startDelay: 300,
+      typeSpeed: 150,
+      loop: true,
+      backSpeed: 50
+    })
+  } else {
+    document.getElementById("subtitle").innerHTML = '苍白的月光下，我和影子述说寂寞。'
+  }
+}
+
+if (true) {
+  if (typeof Typed === 'function') subtitleType()
+  else $.getScript('https://cdn.jsdelivr.net/npm/typed.js/lib/typed.min.js', subtitleType)
+} else {
+  subtitleType()
+}</script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div><script id="click-heart" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/click-heart.min.js" async="async" mobile="false"></script><script>(function(){
+  const bp = document.createElement('script');
+  const curProtocol = window.location.protocol.split(':')[0];
+  if (curProtocol === 'https'){
+  bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+  }
+  else{
+  bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+  }
+  bp.dataset.pjax = ''
+  const s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(bp, s);
+})()</script></div><script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/haru02.model.json"},"display":{"position":"left","width":260,"height":520},"mobile":{"show":false},"react":{"opacity":0.7}});</script></body></html>
